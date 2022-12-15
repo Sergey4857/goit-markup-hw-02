@@ -1,0 +1,105 @@
+:root{
+--header-color:#2E2F42;
+--main-text-color:#434455;
+--main-background-color:#FFFFFF;
+--secondary-background-color:#F4F4FD;
+--hover-focus-color:#4D5AE5
+}
+
+body{
+    background-color:var(--main-background-color);
+    color: #434455;  
+}
+ul{
+    list-style: none;
+}
+
+.all-header{
+
+
+
+}
+.logo{
+color:var(--header-color)  
+}
+.logo-color{
+color:#4D5AE5
+}
+
+.site-nav a{
+
+color: var(--main-text-color)    
+}
+.site-nav a:hover,
+.site-nav a:focus
+{
+
+    color: var(--hover-focus-color)
+}
+
+.contact a{
+
+color:var(--main-text-color)
+}
+
+.contact a:hover,
+.contact a:focus
+
+{
+
+    color: var(--hover-focus-color);
+}
+
+
+.hero{
+    background-color: var(--header-color);
+}
+.hero-title{
+    color: var(--main-background-color)
+}
+
+.privilege-title{
+
+color: var(--header-color);
+}
+.privilege-text{
+color: var(--main-text-color);
+}
+
+.work{
+
+}
+
+.work-title{
+color: var(--header-color);
+
+}
+
+.employy{
+background-color: var(--secondary-background-color)
+ ;
+}
+.employy-title, .employy-header{
+color: var(--header-color);
+}
+
+
+.employy-text{
+}
+
+.employy-block{
+ background-color: var(--main-background-color);
+}
+
+.footer{
+
+background-color: #2E2F42;
+}
+
+.logo-title{
+    color: #F4F4FD;
+}
+.footer-text{
+
+color: #E7E9FC; 
+}
