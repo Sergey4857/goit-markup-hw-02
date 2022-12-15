@@ -3,7 +3,8 @@
 --main-text-color:#434455;
 --main-background-color:#FFFFFF;
 --secondary-background-color:#F4F4FD;
---hover-focus-color:#4D5AE5
+--hover-focus-color:#4D5AE5;
+
 }
 
 body{
@@ -56,6 +57,11 @@ color:var(--main-text-color)
 }
 .hero-title{
     color: var(--main-background-color)
+}
+
+.hero-button{
+background-color:var(--hover-focus-color);
+color: var(--main-background-color);
 }
 
 .privilege-title{
