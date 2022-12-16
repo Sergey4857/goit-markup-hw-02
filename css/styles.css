@@ -4,40 +4,45 @@
 --main-background-color:#FFFFFF;
 --secondary-background-color:#F4F4FD;
 --hover-focus-color:#4D5AE5;
+--third-background-color:#E5E5E5;
 
 }
 
 body{
     background-color:var(--main-background-color);
-    color: #434455;  
+    color: var(--main-text-color);  
 }
 ul{
     list-style: none;
+
 }
 
-.all-header{
-
-
+.all-header a{
+text-decoration: none;
 
 }
 .logo{
 color:var(--header-color)  
 }
 .logo-color{
-color:#4D5AE5
+color:var(--hover-focus-color)
 }
-
 .site-nav a{
 
-color: var(--main-text-color)    
-}
+    color: var(--header-color)    
+    }
+
+
+
 .site-nav a:hover,
 .site-nav a:focus
 {
 
     color: var(--hover-focus-color)
 }
-
+.site-nav .site-nav-current{
+    color: var(--hover-focus-color);
+    }
 .contact a{
 
 color:var(--main-text-color)
@@ -64,6 +69,10 @@ background-color:var(--hover-focus-color);
 color: var(--main-background-color);
 }
 
+.privilege{
+    background-color: var(--main-background-color)
+}
+
 .privilege-title{
 
 color: var(--header-color);
@@ -73,7 +82,7 @@ color: var(--main-text-color);
 }
 
 .work{
-
+background-color: var(--main-background-color);
 }
 
 .work-title{
@@ -99,13 +108,53 @@ color: var(--header-color);
 
 .footer{
 
-background-color: #2E2F42;
+background-color: var(--header-color);
+}
+
+.footer a{
+
+text-decoration: none;    
 }
 
 .logo-title{
-    color: #F4F4FD;
+    color: var(--secondary-background-color);
 }
 .footer-text{
 
 color: #E7E9FC; 
+}
+
+
+/* Portfolio */
+
+.main-portfolio{
+background-color:var(--main-background-color)
+
+}
+
+.button-porfolio{
+background-color: var(--secondary-background-color);
+color: var(--hover-focus-color);
+}
+
+/* Я так понял не будет работать, оставлю пока так  */
+.button-porfolio:hover
+.button-porfolio:focus
+{
+background-color: var(--hover-focus-color);
+color: var(--main-background-color);
+    }
+/* Примеры работ  */
+
+.example-block {
+background-color: var(--main-background-color);
+
+}
+
+
+.example-header{
+    color: var(--header-color);
+} 
+.example-text{
+color: var(--main-text-color);    
 }
