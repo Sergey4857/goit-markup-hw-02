@@ -145,6 +145,11 @@ background-color: var(--hover-focus-color);
 color: var(--main-background-color);
     }
 /* Примеры работ  */
+.example a{
+text-decoration: none;
+
+}
+
 
 .example-block {
 background-color: var(--main-background-color);
