@@ -12,7 +12,6 @@ body{
     background-color:var(--main-background-color);
     color: var(--main-text-color); 
     font-family: Roboto, sans-serif;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;   
     letter-spacing: 0.02em;
@@ -46,30 +45,28 @@ line-height: 1.33;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
-.site-nav a{
+.nav-link a{
 
     color: var(--header-color);
     font-weight: 600;
-    font-size: 16px;
     line-height: 1.5;
     }
-.site-nav a:hover,
-.site-nav a:focus
+.nav-link a:hover,
+.nav-link a:focus
 {
 
     color: var(--hover-focus-color)
 }
-.site-nav .site-nav-current{
-    color: var(--hover-focus-color);
-    }
-.contact a{
+
+.contact-link a{
 
 color:var(--main-text-color);
+font-style: normal;
 
 }
 
-.contact a:hover,
-.contact a:focus
+.contact-link a:hover,
+.contact-link a:focus
 
 {
  color: var(--hover-focus-color);
@@ -104,8 +101,6 @@ cursor: pointer;
 .privilege-title{
 
 color: var(--header-color);
-
-    font-family: 'Roboto';
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
@@ -118,7 +113,7 @@ color: var(--main-text-color);
 background-color: var(--main-background-color);
 }
 
-.work-title{
+.section-title{
 color: var(--header-color);
 font-family: 'Roboto';
 
@@ -130,21 +125,12 @@ text-transform: capitalize;
 
 }
 
-.employy{
+.team{
 background-color: var(--secondary-background-color)
  ;
 }
-.employy-title{
-color: var(--header-color);
 
-font-weight: 600;
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-text-transform: capitalize;
-}
-
-.employy-header {
+.team-name {
 
 color: var(--header-color);
 font-weight: 600;
@@ -152,7 +138,7 @@ font-size: 20px;
 line-height: 1.2;
 }
 
-.employy-block{
+.team-block{
  background-color: var(--main-background-color);
 }
 
@@ -198,36 +184,36 @@ line-height: 1.5;
 text-align: center;
 letter-spacing: 0.04em;
 cursor: pointer;
+}
+
+
+/* Я так понял не будет работать, оставлю пока так  */
+.button-porfolio button:hover,
+.button-porfolio:focus{
+color: var(--hover-focus-color);
 
 }
 
-/* Я так понял не будет работать, оставлю пока так  */
-.button-porfolio:hover
-.button-porfolio:focus
-{
-background-color: var(--hover-focus-color);
-color: var(--main-background-color);
-    }
 /* Примеры работ  */
-.example a{
+.project a{
 text-decoration: none;
 
 }
 
 
-.example-block {
+.project-block {
 background-color: var(--main-background-color);
 
 }
 
 
-.example-header{
+.project-title{
 color: var(--header-color);
 font-weight: 600;
 font-size: 20px;
 line-height: 1.2;
     
 } 
-.example-text{
+.project-text{
 color: var(--main-text-color);    
 }
